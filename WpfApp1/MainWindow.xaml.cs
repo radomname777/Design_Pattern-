@@ -97,9 +97,11 @@ namespace WpfApp1
 
         private Coordinate coordinate = new Coordinate(new Thickness(0));
         private CoordinateCaretaker caretaker = new();
+        
         public MainWindow()
         {
             InitializeComponent();
+            Left_btn.Content = ">"; Right_btn.Content = "<";
             caretaker.Save(coordinate.BackUp());
         }
         

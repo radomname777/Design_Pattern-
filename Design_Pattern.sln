@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design_Pattern", "Design_Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{A23B4CD1-A2D7-410F-9118-E79677F9E53A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23B4CD1-A2D7-410F-9118-E79677F9E53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23B4CD1-A2D7-410F-9118-E79677F9E53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23B4CD1-A2D7-410F-9118-E79677F9E53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23B4CD1-A2D7-410F-9118-E79677F9E53A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
